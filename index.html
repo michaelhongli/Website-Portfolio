@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./dist/style.css">
+  <title>Michael Li</title>
+
+  
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+  <header class="header">
+    <div class="overlay has-fade"></div>
+
+    <nav class="container flex flex-jc-sb flex-ai-c">
+
+      <a href="/" class="header_logo">
+        <img src="images/M_L-1.jpg" alt="M : L"/>
+      </a>
+
+      <a id="buttonhamb" href="#" class="header_hamb hide-for-desktop open">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+
+      <div class="header_links hide-for-mobile">
+        <a href="http://">Home</a>
+        <a href="http://">LinkedIn</a>
+        <a href="http://">Github</a>
+        <a href="http://">Blog</a>
+        <a href="http://">Careers</a>
+      </div>
+      
+      <a href="#" class="button header_cta hide-for-mobile">Contact Me</a>
+    </nav>
+
+    <div class="header_menu has-fade">
+      <a href="">Home</a>
+      <a href="">LinkedIn</a>
+      <a href="">Github</a>
+      <a href="">Blog</a>
+      <a href="">Careers</a>
+    </div>
+    
+  </header>
+  
+  <section>
+    <div class="hero_image"></div>
+    <div class="hero_text">
+      
+      <h1>I'm Michael Li</h1>
+      <p>Sophomore at Rutgers University</p>
+      <a href="#" class="button hero_cta hide-for-desktop">contact me</a>
+    </div>
+  </section>
+
+  <div class="projects container grid">
+    
+      <img class="project-img" src="/images/Youtube-project.png">
+      <div class="project-description-container">
+        <div class="project-description-title">Recreated Youtube Home Page</div>
+        <div class="project-description-body">Utilized HTML to structure the layout of the page, including header, main content, sidebar, and footer sections.</div>
+        <div class="project-description-body">Created a responsive design to ensure the webpage displays optimally across different devices and screen sizes using nested flex-boxes</div>
+        <div class="project-description-body">Replicated the designs of the YouTube home page, including the sidebar, suggested videos section, and search bar.</div>
+      </div>
+      
+      <div class="project-description-container even-count">
+        <div class="project-description-title">Rock Paper Scissors (javascript)</div>
+        <div class="project-description-body">Employed random module to generate the computer's move, ensuring a fair and unbiased game experience.</div>
+        <div class="project-description-body">Designed a user-friendly interface with intuitive buttons for player actions and a clear display of the current scoreboard.
+        </div>
+        <div class="project-description-body">Implemented user input validation to handle invalid moves and display appropriate error messages.</div>
+      </div>
+      <img class="project-img" src="/images/Rock-paper-scissor-project.png">
+      
+      <img class="project-img" src="/images/Todo-list-project.png">
+      <div class="project-description-container  ">
+        <div class="project-description-title">To Do list</div>
+        <div class="project-description-body even">Enabled users to manage their tasks efficiently by offering options to clear the entire list or remove specific events, enhancing the application's usability.</div>
+        <div class="project-description-body even">Implemented event handling and DOM manipulation to capture user input and update the todo list in real-time without requiring a page refresh.</div>
+        <div class="project-description-body even">Utilized JavaScript to create a dynamic user interface that allows for smooth addition and removal of todo list items.</div>
+      </div>
+    
+
+    
+  </div>
+
+  <script src="/app/js/script.js"></script>
+</body>
+</html>
